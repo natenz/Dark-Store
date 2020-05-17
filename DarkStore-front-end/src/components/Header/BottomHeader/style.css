@@ -1,11 +1,12 @@
 .BottomHeader {
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 
 .Menu {
     display: flex;
     position: relative;
+    
 }
 
 .MenuItem {
@@ -55,4 +56,8 @@
 
 .Dropdown>li>ul>li>a:hover {
     text-decoration-line: underline;
+}
+.ColumnTitle>a{
+    color: brown;
+    font-weight: bold;
 }
