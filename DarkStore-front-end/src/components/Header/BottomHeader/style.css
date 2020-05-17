@@ -1,19 +1,21 @@
-
-.BottomHeader{
+.BottomHeader {
     display: flex;
-    justify-content:right;
+    justify-content: right;
 }
-.Menu{
+
+.Menu {
     display: flex;
     position: relative;
 }
-.MenuItem{
+
+.MenuItem {
     list-style: none;
     display: block;
     padding: 10px;
     position: relative;
 }
-.Dropdown{
+
+.Dropdown {
     position: absolute;
     background: #fff;
     display: none;
@@ -24,28 +26,33 @@
     box-shadow: 0 0 4px -1px grey;
     padding: 20px 10px;
 }
-.Dropdown > li{
+
+.Dropdown>li {
     float: left;
     width: 25%;
 }
+
 /* .Dropdown > .Column{
     
 } */
-.Menu .MenuItem > a{
-    color: #333;
+.Menu .MenuItem>a {
+    color: rgb(7, 5, 5);
     text-decoration: none;
 }
-.MenuItem:hover > .Dropdown{
+
+.MenuItem:hover>.Dropdown {
     display: block;
     opacity: 1;
 }
 
-.Dropdown > li > ul > li{
+.Dropdown>li>ul>li {
     margin: 5px 0;
 }
-.Dropdown > li > ul > li > a{
+
+.Dropdown>li>ul>li>a {
     color: #666;
 }
-.Dropdown > li > ul > li > a:hover{
+
+.Dropdown>li>ul>li>a:hover {
     text-decoration-line: underline;
 }
