@@ -1,8 +1,0 @@
-{
-    
-    "env": {
-        "MONGODB_USERNAME": "Dark-Store",
-        "MONGODB_PASSWORD": "DarkStore"
-    }
-    
-}
