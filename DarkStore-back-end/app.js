@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const authenticate = require('./api/middleware/authenticate');
 
-mongoose.connect('mongodb+srv://'+ process.env.MONGODB_USERNAME +':'+ process.env.MONGODB_PASSWORD +'@cluster0-cbvct.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://' + process.env.MONGODB_USERNAME + : + process.env.MONGODB_PASSWORD + ' @cluster0-wavle.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
 
 const adminRoutes = require('./api/routes/admins');
 const categoryRoutes = require('./api/routes/categories');
